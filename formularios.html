@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=hea, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>MIS FORMULARIOS</h1>
+    </header>
+    <main>
+      <section>
+        <header></header>
+        <h2>Formulario 2</h2>
+        <form action="">
+          <fieldset>
+            <legend>Completar</legend>
+            <label for="">eliga un color</label>
+            <input type="color" name="color" /> <br />
+            <textarea
+              name="tex"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Por favor, escriba aqui"
+            ></textarea> <br>
+            <select name="programacion" id="">
+                <option value="1"> java</option>
+                <option value="1"> PHP</option>
+                <option value="1">C++</option>
+            </select> <br>
+            <input type="checkbox" name="1">ASIR <input type="checkbox" name="1">DAM <input type="checkbox" name="1">DAW
+          </fieldset>
+          <fieldset>
+            <legend>Rellene las opciones siguientes</legend>
+            <label for="">Eliga una fecha:</label>
+            <input type="date" name="fecha"> <br>
+            <label for="">Eliga un fichero:</label>
+            <input type="file" name="archivo"><br>
+           <select name="select" multiple>
+           <option value="1">SMIR</option>
+           <option value="1"> ASIR</option>
+            <option value="1"> DAM</option>
+            <option value="1">DAW</option>
+        </select>
+          </fieldset>
+        </form>
+        <section> 
+    
+              <h2>Formulario 3</h2>
+              <form action=""></form>
+              <table>
+                  <caption style="background:rgb(0, 255, 157) ;">Regitro de trabajadores</caption>
+                  <tr>
+                  <td>Rut:</td>
+                  <td> <input type="text" name="" id="" placeholder="Sin puntos ni guion"></td>
+                  </tr>
+                  <tr>
+                <td>Nombre:</td>
+                  <td><input type="text" name="" id="" placeholder=""></td>
+                  <tr>
+                      <td>Apellido Paterno:</td>
+                      <td><input type="text" name="" id=""></td>
+                  </tr>
+                  <tr>
+                      <td>Apellido Materno:</td>
+                      <td><input type="text" name="" id=""></td>
+                  </tr>
+                  <tr>
+                 <td><label for="">Sexo: </label><input type="radio" name="sexo" id="H">Masculino <input type="radio" name="sexo" id="M">Femenino</td>
+                  </tr>
+<tr>
+<td> <label for="">Nivel de estudio:</label></td><td><input type="checkbox" name="" id="">No tiene <br> <input type="checkbox" name="" id="">Tecnico <br><input type="checkbox" name="" id="">Universidad</td>
+</tr>
+<tr>
+  <td><label for="">Ciudad de Nacimiento: </label> <select name="Roncagua" id=""><option value="1">Rancagua</option><option value="2">Troncon</option></select></td>
+</tr>
+              </tr>
+              <tr>
+                  <td>Curriculum</td>
+                  <td><input type="file" name="" id=""></td>
+              </tr>
+              <tr>
+                  <td>Foto</td>
+                  <td><input type="file" name="" id=""></td>
+              </tr>
+              <tr style="background-color:rgb(0, 255, 157) ; text-align: center;">
+                  
+                  <td colspan="2"> <button type="submit">Registrar trabajador</button><button type="reset">Limpiar Formulario</button></td>
+                  
+              </tr>
+              </table>
+       
+      </section>
+        <h2> formulario 4</h2>
+        <form action="" method="get">
+            <fieldset>
+            <label for=""> Escribe tu nombre: </label>
+            <input type="text"> <br> <br>
+            <label for=""> Escribe tu apellido </label>
+            <input type="text"> <br> <br>
+            <label for=""> Escribe tu email </label>
+            <input type="email"> <br> <br>
+            <label for=""> ¿Que valoracion le das a  la publicación? </label> <br>
+            <input type="radio" name="1">1 <input type="radio" name="1">2 <input type="radio" name="1">3 <input type="radio" name="1"> 4 <input type="radio" name="1">5  <br> <br>
+            <label for="">¿Que asigantura has estudiado? </label> <br>
+            <input type="checkbox" name="1">html <input type="checkbox" name="1">css <input type="checkbox" name="1">javascript
+            <label for="">Selecciona tu alineación ideal </label> <br>
+            <select name="select" multiple="true">
+                <option value="2a">Cristiano </option>
+                <option value="2b"> Messi</option>
+                 <option value="2c"> Chigrinsky</option>
+                 <option value="2d">Sergio Ramos</option>
+                 <option value="2f">Shevshenko</option> 
+             </select> <br>
+            <label for=""> ¿Qué mejorarías de este curso?</label> <br>
+            <textarea name="" id="" cols="70" rows="8"></textarea> <br>
+            <button type="submit" style="background-color: rgb(118, 118, 221)" >enviar</button>
+            </fieldset>
+        </form>
+        <section>
+          <h2>Formulario 5</h2>
+          <form action="" method="get">
+                  <table border="">
+                   
+                      <caption><label for=""><strong>Registro de usuario</strong></label></caption>
+                      <tr>
+      
+                          <td rowspan="4"><img src="user.png" alt="Foto muestra" title="Foto  usuario" width="100"
+                                  height="100"></td>
+                          <td><label for="">Codigo de usuario: </label> <input type="text" name="" id="" required="true" placeholder="Codigo de usuario"></td>
+      
+                      </tr>
+                      <tr>
+      
+                          <td><label for="">Nivel de usuario: </label> <input type="radio" name="Tipo" id="" maxlength="10">Administrador
+                              <input type="radio" name="Tipo" id="" placeholder="" required="true">Usuario</td>
+                      </tr>
+                      <tr>
+      
+                          <td><label for="">Contraseña :</label> <input type="password" name="" id="" minlength="1" maxlength="10" required="true" placeholder="Contraseña"></td>
+                      </tr>
+                      <tr>
+      
+                          <td><label for=""> Confirmar Contraseña:</label> <input type="password" name="" id=""minlength="1" maxlength="10" required="true"></td>
+                      </tr>
+                      <tr>
+                          <td colspan="2"><label for="">Nombres</label> <input type="text" name="" id="" placeholder="" minlength="1" maxlength="10" required="true" placeholder="Ingrese su nombre"></td>
+                      </tr>
+                      <tr>
+                          <td colspan="2"><label for="">Apellidos:</label> <input type="text" name="" id="" required="true" minlength="1" maxlength="10" placeholder="Ingrese su apellido"></td>
+                      </tr>
+                      <tr>
+                          <td><label for="">Tipo de Documento:</label> <select name="" id="">
+                                  <option value="1">DUI</option><option value="">Pasaporte</option>
+                              </select> </td>
+                          <td><label for="">Numero de documento</label> <input type="number" name="" id="" required="true"></td>
+                      </tr>
+                  
+                      <tr>
+      
+                          <td colspan="2"><label for="">Sexo: </label> <input type="radio" name="Sexo" id="" value="M">Masculino
+                              <input type="radio" name="sexo" id="" value="F">Femenino</td>
+                      </tr>
+                      <tr>
+                          <td colspan="2"><label for="">Telefono: </label> <input type="tel" name="" id="" required="true"></td>
+                      </tr>
+                      <tr>
+                          <td colspan="2"><label for="">Email: </label> <input type="email" name="" id="" required="true"></td>
+                      </tr>
+      
+                      <tr style="text-align: center;">
+                          <td colspan="2"> <button type="submit"> Registrar</button><button type="reset">Limpiar</button></td>
+                        
+                      </tr>
+                  </table>
+              </form>
+              </section>
+        <h2> formulario 6</h2>
+      <fieldset>
+        <form action="">
+          <table>
+            <caption> ¿Estas registrado ?: <u>Clik para entrar</u> </caption>
+            <tr>
+              <td> <label for="">Nombre</label></td>
+              <td> <input type="text" name="1" size="30"></td>
+              <td> <label for="">Dirección 1 </label></td>
+              <td><input type="text" name="1" size="30"></td>
+            </tr>
+            <tr>
+              <td> <label for="">apellido</label></td>
+              <td> <input type="text" name="1" size="30"></td>
+              <td> <label for="">Dirección 2</label></td>
+              <td><input type="text" name="1" size="30"></td>
+            </tr>
+            <tr>
+              <td> <label for="">Nombre de Compañia</label></td>
+              <td> <input type="text" name="1" size="30"></td>
+              <td> <label for="">Ciudad </label></td>
+              <td><input type="text" name="1" size="30"></td>
+            </tr>
+            <tr>
+              <td> </td>
+              <td></td>
+              <td> <label for="">Provincia o región </label></td>
+              <td><input type="text" name="1" size="30"></td>
+            </tr>
+            <tr>
+              <td> <label for="">Direccíon Email</label></td>
+              <td> <input type="email" name="1" size="30"></td>
+              <td> <label for="">Código postal </label></td>
+              <td><input type="number" name="1" size="30"></td>
+            </tr>
+            <tr>
+              <td> <label for="">Contraseña</label></td>
+              <td> <input type="password" name="1" size="30"></td>
+              <td> <label for="">País </label></td>
+              <td> <select name="3">
+                <option value="S">Spain</option>
+                <option value="F">Francia</option>
+                <option value="I">Inglaterra</option>
+              </select></td>
+            </tr>
+            <tr>
+              <td> <label for="">Cofirmar contraseña</label></td>
+              <td> <input type="password" name="1" size="30"></td>
+              <td> <label for="">Número de telefóno </label></td>
+              <td><input type="number" name="1" size="30"></td>
+            </tr>
+            <tr>
+              <td colspan="4" style="text-align:center"> <label for="">password Strength :</label> <progress max="100" value="70"></progress>Strong</td>
+            </tr>
+          </table>
+        </form>
+      </fieldset>
+      <h2> formulario 8</h2>
+      <form action="" method="get">
+        <fieldset>
+          <h3> Añadir nuevo usuario </h3>
+          <table style="background-color:rgb(34, 207, 126)">
+            <caption> Crea un nuevo usario y añadelo a este sitio </caption>
+            <tr>
+              <td> <label for=""> nombre de usuario </label> </td>
+              <td> <input type="text" name="name" minlength="5" required maxlength="40" ></td>
+            </tr>
+            <tr>
+              <td> <label for=""> Correo electrónico </label> </td>
+              <td> <input type="email" name="correo" minlength="5" required maxlength="40" ></td>
+            </tr>
+            <tr>
+              <td> <label for=""> Nombre </label> </td>
+              <td> <input type="text" name="names" minlength="5" required maxlength="40" ></td>
+            </tr>
+            <tr>
+              <td> <label for=""> apellidos </label> </td>
+              <td> <input type="text" name="apellidos" minlength="5" required maxlength="40" ></td>
+            </tr>
+            <tr>
+              <td> <label for=""> Web </label> </td>
+              <td> <input type="text" name="web" minlength="5" required maxlength="40" ></td>
+            </tr>
+            <tr>
+              <td> <label for=""> Contraseña </label> </td>
+              <td> <input type="password" name="pass" minlength="5" required maxlength="40" placeholder="Mostrar contraseña"> </td>
+            </tr>
+            <tr>
+              <td> <label for=""> Enviar aviso al usuario </label> </td>
+              <td> <input type="checkbox" name="usa" > Envia al usuario nuevo un correo electrónico con información sobre su cuenta</td>
+            </tr>
+            <tr>
+              <td> <label for=""> Perfil </label> </td>
+              <td> <select name="sele" id=""> <option value="1"> Suscriptor </option> <option value="1"> Nuevo usuario </option></select> </td>
+            </tr>
+            <tr>
+              <td> <input type="button" value="añadir nuevo usuario" style="background-color: rgb(197, 126, 126)"></td>
+              <td> </td>
+            </tr>
+          </table>
+        </fieldset>
+      </form>
+      </section>
+    </main>
+  </body>
+</html> 
